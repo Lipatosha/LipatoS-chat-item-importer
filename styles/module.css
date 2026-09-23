@@ -1,0 +1,3 @@
+.chat-item-importer-btn { flex: 1 1 100%; }
+.cii-dialog textarea { width:100%; min-height:360px; resize:vertical; font-family:monospace; }
+.cii-dialog p { margin:0 0 .6rem; }
