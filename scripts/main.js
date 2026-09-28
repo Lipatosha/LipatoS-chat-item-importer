@@ -72,11 +72,16 @@ function normalizeItem(src) {
 
   if (type === "loot") system.type ??= { value: "other", subtype: "" };
 
+  if (src.effects != null && !Array.isArray(src.effects)) {
+    throw new Error("Поле effects должно быть массивом Active Effects.");
+  }
+
   return {
     name: src.name,
     type,
     img: src.img || ICONS[type] || "icons/svg/item-bag.svg",
     system,
+    effects: foundry.utils.deepClone(src.effects ?? []),
     flags: { ...(src.flags ?? {}), [MOD]: { imported: true } }
   };
 }

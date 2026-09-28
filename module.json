@@ -2,7 +2,7 @@
   "id": "chat-item-importer",
   "title": "LipatoS - Импорт предметов",
   "description": "Импорт предметов D&D5e из JSON: тип, цена и валюта, вес, редкость, описание и стандартная иконка типа. Адаптировано для D&D5e 6.0.5.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "authors": [
     {
       "name": "LipatoS"
@@ -33,7 +33,7 @@
   ],
   "url": "https://github.com/Lipatosha/LipatoS-chat-item-importer",
   "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-chat-item-importer/main/module.json",
-  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-chat-item-importer/main/lipatos-chat-item-importer-v1.1.1.zip",
+  "download": "https://github.com/Lipatosha/LipatoS-chat-item-importer/releases/latest/download/lipatos-chat-item-importer.zip",
   "readme": "https://github.com/Lipatosha/LipatoS-chat-item-importer/blob/main/README.md",
   "bugs": "https://github.com/Lipatosha/LipatoS-chat-item-importer/issues"
 }
