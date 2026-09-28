@@ -9,7 +9,7 @@ const ctx = {
   CONFIG: { DND5E: { defaultUnits: { weight: { imperial: "lb" } } } }
 };
 vm.createContext(ctx);
-vm.runInContext(fs.readFileSync("scripts/main.js", "utf8") + "\\nglobalThis.testNormalize = normalizeItem;", ctx);
+vm.runInContext(fs.readFileSync("scripts/main.js", "utf8") + "\nglobalThis.testNormalize = normalizeItem;", ctx);
 const raw = {
   name: "Хищный наскок", type: "feat",
   system: { type: { value: "monster" }, activities: { pounceAttack0001: { type: "attack" } } },
